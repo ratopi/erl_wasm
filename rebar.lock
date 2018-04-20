@@ -1,0 +1,8 @@
+[{<<"eleb128">>,
+  {git,"https://github.com/funbox/eleb128.git",
+       {ref,"7aadf28a239d2f5bdee431e407a7f43dcdbf4b5f"}},
+  0},
+ {<<"erl_llvm">>,
+  {git,"https://github.com/jamen/erl_llvm.git",
+       {ref,"a70669da0d892a40a8af838c698c1ce935845b1b"}},
+  0}].

@@ -1,0 +1,18 @@
+{application, wasm, [
+  {description, "Experimental library for compiling Erlang's BEAM bytecode into WebAssembly."},
+  {vsn, "0.0.0"},
+  {registered, []},
+  {modules, [
+    wasm_binary,
+    wasm
+  ]},
+  {applications, [
+    kernel,
+    stdlib,
+    eleb128,
+    erl_llvm
+  ]},
+  {maintainers, [ "Jamen Marz <jamenmarz@gmail.com>" ]},
+  {licenses, [ "MIT" ]},
+  {links, [{"Github", "https://github.com/jamen/wasm_lib"}]}
+]}.
