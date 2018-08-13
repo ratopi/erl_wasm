@@ -1,7 +1,6 @@
-
 # erl_wasm
 
-**Does not work yet. Looking for a collaborative effort.**
+**Project abandoned**: Please see [elixir-wasm](https://github.com/jamen/elixir-wasm) instead.
 
 A compiler for WebAssembly from Erlang code.  It works by compiling BEAM binaries into WebAssembly binaries, which can be executed portably or on the web.
 
